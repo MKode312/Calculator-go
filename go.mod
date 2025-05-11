@@ -1,6 +1,6 @@
 module calculator_go
 
-go 1.23
+go 1.24.2
 
 require (
 	github.com/golang-jwt/jwt/v5 v5.2.2
@@ -12,9 +12,9 @@ require (
 )
 
 require (
-	golang.org/x/net v0.40.0 // indirect
+	golang.org/x/net v0.35.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/text v0.25.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250505200425-f936aa4a68b2 // indirect
-	google.golang.org/protobuf v1.36.6 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250218202821-56aae31c358a // indirect
+	google.golang.org/protobuf v1.36.5 // indirect
 )
